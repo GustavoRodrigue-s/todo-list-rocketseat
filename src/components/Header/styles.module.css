@@ -1,0 +1,26 @@
+.header {
+  background-color: var(--gray-700);
+  height: 12.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.header > img {
+  width: 1.35rem;
+}
+
+.header strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header > span > strong:first-child {
+  color: var(--blue);
+}
+
+.header > span > strong:last-child {
+  color: var(--purple-dark);
+}

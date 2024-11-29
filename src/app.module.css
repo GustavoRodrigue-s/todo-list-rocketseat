@@ -1,0 +1,10 @@
+.main {
+  max-width: 736px;
+  margin: -1.68rem auto 0;
+  padding: 0 2rem;
+}
+
+.main > header > form {
+  display: flex;
+  gap: 0.5rem;
+}
